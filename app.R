@@ -101,7 +101,7 @@ server <- function(input, output, session) {
                              "-",
                              round(age_CI["upper_bound"], 2),
                              " y")) +
-      theme_bw()
+      theme_bw(base_size = 24)
   })
 }
 
